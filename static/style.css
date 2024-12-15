@@ -21,7 +21,7 @@ h1, h2, h3 {
 
 .connect input, .connect textarea {
   display: block;
-  width: 80%;
+  width: 40%;
   margin: 10px auto;
   padding: 8px;
   border: 2px solid #f57c00;
@@ -48,9 +48,9 @@ h1, h2, h3 {
     justify-content: space-between; /* Ensures even space between sections */
   }
   
-  
-  .container-section {
+  .content {
     flex: 1; /* Ensures each section takes equal width */
+    margin: 20px 1.5%;
     padding: 10px; /* Adds some padding inside the divs */
-    text-align: center; /* Centers the text inside each h1 */
+    text-align: left; /* Centers the text inside each h1 */
   }
