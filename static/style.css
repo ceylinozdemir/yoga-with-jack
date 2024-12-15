@@ -1,7 +1,11 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #b3e5fc;
-  color: #8e24aa;
+  /* background-color: #b3e5fc; */
+  background-image: url('gradient_bgr.jpg'); /* Replace with your image path */
+  background-size: cover; /* Make the image cover the entire page */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  color: #C901A1;
   margin: 0;
   padding: 0;
   padding-top: 50px;
@@ -49,8 +53,23 @@ h1, h2, h3 {
   }
   
   .content {
-    flex: 1; /* Ensures each section takes equal width */
-    margin: 20px 1.5%;
-    padding: 10px; /* Adds some padding inside the divs */
+    padding: 5px 70px;
+    margin: 5px auto;
     text-align: left; /* Centers the text inside each h1 */
   }
+
+  /* Style for the second line of hyperlinks */
+.link-line {
+  display: block; /* Make the span take up the full line */
+  padding-left: 20px; /* Add indentation on the second line */
+}
+
+/* Optional: Style the hyperlink */
+a {
+  color: #007bff; /* Set the color of the links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
