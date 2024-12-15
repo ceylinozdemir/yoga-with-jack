@@ -1,0 +1,15 @@
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
